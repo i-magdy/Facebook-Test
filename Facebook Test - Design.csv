@@ -1,0 +1,700 @@
+TC ID,Title,Preconditions,Steps to be executed,Expected Result,Actual Result,Priority,Status,Requirement Traceability,Bugs Traceability
+Adding Posts Module,,,,,,,,,
+Adding Posts GUI Suite,,,,,,,,,
+FB_POSTING_GUI_001,Verify the create post button is in home page and profile page,Facebook app installed and Opend,"1- Open home page.
+2- Look at the top of the page.
+3- Open Profile page.
+4- Scroll down on the Profile page.
+5- Look at Post section.","""What's on your mind?"" button sholud be showen",The button found.,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_002,Verify that POST Button is disabled when open create Post page,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button.
+3- Look at the Top corner at Post Button.",Post button should be disabled gray color,Post Button is disabled with gray color,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_003,Verify that there is back button in top corner of create post page,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Look at the Top corner at arrow.","Should be a back button ""arrow""",There's a arrow back button,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_004,Verify that user profile picture and his name is shown on the top of create post page ,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Look at the top of Create Post page under toolbar.",The profile picture and user name should next to his picture on the Top,Profile pictur and user name are found at the top under toolbar,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_005,Verify that options list shown in the bottom of the create post page,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Look at Bottom of the create post page",List of Post Options should be at listed at the bottom.,List of Options are found listed at the bottom,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_006,Verify when user type any text POST Button is enabled with blue color,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Try to type any text.
+4- Look at the Top corner POST Button.",POST Button should be enabled with blue color,When typed any text at the content section the Post button turned to blue and enabled,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_007,Verify that when user upload photo/video POST Button is enabled with blue color,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Try toupload photo/video.
+4- Look at the Top corner POST Button.",POST Button should be enabled with blue color,"When i upload media from gallary/ Camera ,Post button turned to blue and enabled",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_008,Verify that when user select feelings/activity the POST Button is enabled with blue color,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Select from options feelings/activity.
+4- Select any feelings/activity.
+5- Look at the Top corner POST Button.",POST Button should be enabled with blue color,"After selected a feelings/activity, The post button turned to blue and enabled",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_009,Verify that when user add Song POST Button is enabled with blue color,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Select from options Music.
+4- Select any Music from the list.
+5- Look at the Top corner POST Button.",POST Button should be enabled with blue color,after added a music the post button turned to blue color,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_010,Verify that when user add Location POST Button is enabled with blue color ,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Select from options Check-In.
+4- share any location.
+5- Look at the Top corner POST Button.",POST Button should be enabled with blue color,afer added a location the Post button turned to blue color,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_011,Verify the when user add Location map view is shown,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Select from options Check-In.
+4- share any location.
+5- Look at the Create Post page content section.",Map preview should be appears with a pin of the location selected,after added a location there's a map preview shown in content section,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_012,Verify when user go back and there's any modification in Create post page a save dialog appears ,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Try to type any text.
+4- Click on back arrow.
+5- Look at the bottom of screen.","When you click on back arrow, a Save dialog should appears at the bottom befor closing.",when go back from Create post page a save dialog appears,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_013,Verify that when user upload photo/video the backgound color option disapeared,Facebook app installed and Opend,"1-Open home page / Profile Page.
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Choose a background color.
+4- open galary/camera and add photo/video.
+5- Look at the content section.","Should background color disappear, and the media content appears instead",The background color dispeared and the media added appeared.,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_014,Verify when user upload photo hint message changes,Facebook app installed and Opend,"1-Open home page / Profile Page. 
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- upload a photo from Gallary/Camera.
+4- Look at the hint above photo.","Hint should change to ""Say something about this photo..""","The hint changed to ""Say something about this photo..""",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_015,Verify when user upload video hint message changes,Facebook app installed and Opend,"1-Open home page / Profile Page. 
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- upload Video from Gallary/Camera.
+4- Look at the hint above Video.","Hint should change to ""Say something about this video..""","The hint changed to ""Say something about this video..""",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_016,Verify when user Choose GIF hint message changes,Facebook app installed and Opend,"1-Open home page / Profile Page. 
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Add a GIF from the list.
+4- Look at the hint above GIF preview.","Hint should change to ""Say something about this GIF..""","The hint changed to ""Say somthing about this GIF..""",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_017,Verify when user choose Song hint message changes,Facebook app installed and Opend,"1-Open home page / Profile Page. 
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Add a Song from the list.
+4- Look at the hint above Song preview","Hint should change to ""Say something about this song..""","The hint changed to ""Say something about this song..""",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_018,Verify that when user add Song POST Button is enabled with blue color,Facebook app installed and Opend,"1-Open home page / Profile Page. 
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Add a Song from the list.
+4- Look at thePost button at the Top corner.",POST Button should be enabled with blue color,After added a song the Post Button turned to blue and enabled,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_GUI_019,Verify that when user type any text background color appears in horizontal list in the bottom,Facebook app installed and Opend,"1-Open home page / Profile Page. 
+2- Click on ""What's on your mind?"" Button in home/profile page.
+3- Type any text in content section.
+4- look at the bottom of page abpve keyboard layout.",Should see list of background colors in horizontal list.,After typed a text a list of background colors appears in horizontal list view,High,PASS,2.1.1 Adding Posts,
+Adding Posts Positve Suite,,,,,,,,,
+FB_POSTING_POS_001,Verify when user can navigate to Create Post page from Home page,Facebook app installed and Open,"1-Open home page.
+2- Click on ""What's on your mind?"" Button.
+",When you click on it should navigate you to Create Post Page,After click on the button the create post page opend.,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_002,Verify when user can navigate to Create Post page from Profile page,Facebook app installed and Open,"1-Open Profile page.
+2- Click on ""What's on your mind?"" Button.
+",When you click on it should navigate you to Create Post Page,After click on the button the create post page opend.,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_003,"Verify that if Create post not modified blank, POST Button is disabiled and not clickable",Facebook app installed and Open,"1-Open Profile/Home page.
+2- Click on ""What's on your mind?"" Button.
+3- Click on Post Button.",Post Button should be disabled and not clickable and dose not do any thing.,when click on POST Button nothing happens,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_004,Verify user can upload single photo from gallary and post it,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Upload photo from the Gallary.
+4- click on POST Button.
+5- View the Post on your profile.",Photo should be uploaded and posted on your profile.,After posted the photo i can see the post on the profile,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_005,Verify user can upload single Video from gallary and post it,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Upload photo from the Gallary.
+4- click on POST Button.
+5- View the Post on your profile.",Video should be uploaded and posted on your profile.,After posted the Video i can see the post on the profile,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_006,Verify user can upload multible photos from gallary and post it,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Select multiple photos from the Gallary.
+4- click on NEXT Button.
+5- click on POST Button.
+6- View the Post on your profile.",Photos should be uploaded and posted on your profile,After posted the photos i can see the post on the profile,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_007,Verify user can upload multiple Videos from gallary and post it,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Select multiple Videos from the Gallary.
+4- click on NEXT Button.
+5- click on POST Button.
+6- View the Post on your profile.",Videos should be uploaded and posted on your profile,After posted the videos i can see the post on the profile,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_008,Verify user can post text Post with background color,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Select Background color from the list.
+4- Type any text.
+5- click on POST Button.
+6- View the Post on your profile.",Post should appears with a background color,"After i posted a text with background color, i can see the post on the profile",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_009,Verify user can post photo by Camera,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Open the Camera.
+4- Take a photo.
+5- click on POST Button.
+6- View the Post on your profile.",Camera should capture a photo and you can post it on profile,"After i open Camera and took a photo, then posted it i can see the post on profile",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_010,Verify user can write a caption for each photo uploaded,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Select multiple photos from the Gallary.
+4- click on NEXT Button.
+5- click on a photo.
+6- Add a caption.
+7- click on POST Button.
+8- View the Post on your profile.",a photo should be able to add a caption on it,i can add a caption on a photo,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_011,Verify user can post video by Camera,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Open the Camera.
+4- Record a video.
+5- click on POST Button.
+6- View the Post on your profile.",Camera should record a video and you can post it on profile,"After i open Camera and recorded a video, then posted it i can see the post on profile",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_012,Verify user can Post multible photos and videos by Camera,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Open the Camera.
+4- Record a video.
+5- take a photo.
+6- click on POST Button.
+7- View the Post on your profile.",Camera should take multible photots/videos and you can post it on profile,"After i open Camera and recorded a video, then posted it i can see the post on profile",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_013,Verify user can add photos from Camera and Galary,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Open the Camera.
+4- take a photo.
+5- Open the Gallary.
+6- Select photo.
+7- click on POST Button.
+8- View the Post on your profile.","Camera should take a picture, then upload a photo from gallary successfuly and you can post it on profile",After i take a photo by camera then i upload photo from gallary and posted it and see the post on profile,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_014,Verify User can add Videos from Camera and Gallary,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Open the Camera.
+4- record a video.
+5- Open the Gallary.
+6- Select a video.
+7- click on POST Button.
+8- View the Post on your profile.","Camera should record a Video, then upload a Video from gallary successfuly and you can post it on profile",After i record a video by camera then i upload a video from gallary and posted it and see the post on profile,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_015,Verify user can Post music from music list,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- click on music from options.
+4- select a music.
+5- View the Post on your profile.",App should load a list of Songs and post a song,After i select a song and posted it,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_016,Verify user can change chek-in location post,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Select Check-In from Options.
+4- Select a location to share.
+5- View the Post on your profile",Should share a location as a post,"after i choose a location to share , posted it and i can see it on profile",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_POS_017,Verify user can save his post and posted later,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Uplaod a photo.
+4- Press on back.
+5- from dialog option click on save latter.
+6- view the saved post in saved list",Should save any post to posted later,"after i upload a photo, i saved the post and i can posted later",High,PASS,2.1.1 Adding Posts,
+Adding Posts Negative Suite,,,,,,,,,
+FB_POSTING_NEG_001,Verfiy that user can not add blank post,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- choose a background color.
+4- Clic on POST Button",Posts should not createed blank,it can not accepts blank posts,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_002,verify that user can not add background color with upload photo,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- choose a background color.
+4- Uplaod a photo from Galary.
+5- Click on POST Button",should not conflict photos with background colors,when i upload a photo on backround color it disappears,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_003,verify that user can not add background color with upload video,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- choose a background color.
+4- Uplaod a Video from Galary.
+5- Click on POST Button",should not conflict videos with background color,when i upload a video on backround color it disappears,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_004,"Verify that user can not add text post over 33,0000 Character",Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Type a text with 33 thousnds char.
+4- try to type more characters.
+5- Click on POST Button",Should not accept more than 33000 character,"when i type over 33,000 characters it doesnot accept more",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_005,Verify that user can not post corrupted photo,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Uplaod a corrupted photo from Galary.
+4- Click on POST Button",should not post any corrupted photo,it posted a corrupted photo,High,FAIL,2.1.1 Adding Posts,
+FB_POSTING_NEG_006,Verify that user can not post corrupted video,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Uplaod a corrupted Video from Galary.
+4- Click on POST Button",should not post any corrupted Video,it posted a corrupted Video,High,FAIL,2.1.1 Adding Posts,
+FB_POSTING_NEG_007,Verify that when user return to the app can see the text he was typed in create Post page,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Type any text.
+4- press home button.
+5-open another app.
+6- Return to Facebook again.
+",App should save your work when you return to it again,it save my work,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_008,Verify that when user returnt to the app can see the photo he uploaded from the gallery befor posting,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Upload a photo.
+4- press home button.
+5-open another app.
+6- Return to Facebook again.
+",App should save your work when you return to it again,it save my work,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_009,Verify that user can not post small size photo,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Uplaod a small size photo from Galary.
+4- Click on POST Button",Should not accept a small size photos,it accepts the photo after it fits in content section and got pixeled,High,FAIL,2.1.1 Adding Posts,
+FB_POSTING_NEG_010,Verify that user can not upload long videos like movies,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Uplaod a long video from Galary.
+4- Click on POST Button",app should not accept long videos like movies,it accepts a long video time,High,FAIL,2.1.1 Adding Posts,
+FB_POSTING_NEG_011,Verify that when user retunt to the app can see the video he uploaded from the gallery befor posting,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Upload a Video.
+4- press home button.
+5-open another app.
+6- Return to Facebook again.
+",App should save your work when you return to it again,it save my work,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_012,Verify that user can not tag someone is not in his friends list,Facebook app installed and Open,"1-Open Home/Profile page. 
+2- Click on ""What's on your mind?"" Button.
+3- Select Tag People.
+4-search for someone on facebook.
+5- try to add people",App should not add someone is not in your friends list,"i can not add anyone, it says i have to add the first as friends ",High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_013,Verify that user can not post a file not a (photo/video),Facebook app installed and Open,"1- Open device files.
+2- select a pdf file for example.
+3- click on share file.
+4- select share to facebook.",App should not share any file from the phone,it won't let me share any file,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_014,Verify that user upload musicfrom phone's files,Facebook app installed and Open,"1- Open device files.
+2- select any mp3 file ""Music"".
+3- click on share file.
+4- select share to facebook.",App should not share music from the phone,it wont let me share a music in the app,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_015,Verify that user can not cancel uploading photos from cancel button,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Upload Photos.
+4- press POST button.
+5- click on posting progress bar.
+6- Select from option cancel uplaoding.
+",App should be abel to cancel uploading photos,i can cancel uplaoding photos,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_016,Verify that user can not cancel uploading video form cancel button,Facebook app installed and Open,"1-Open Home/Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Upload videos.
+4- press POST button.
+5- click on posting progress bar.
+6- Select from option cancel uplaoding.
+",App should be abel to cancel uploading videos,i can cancel uploading videos,High,PASS,2.1.1 Adding Posts,
+FB_POSTING_NEG_017,Verify that user can not delete any post he's already posted,Facebook app installed and Open,"1-Open Profile page.
+2- Click on ""What's on your mind?"" Button.
+3- Scroll throw your posts.
+4- press 3 dots settings button on post.
+5-select delete post from options.",App should be able to delete any own post,i can delete any post in my profile,High,PASS,2.1.1 Adding Posts,
+Adding Stories Module,,,,,,,,,
+Adding Stories GUI Suite,,,,,,,,,
+FB_STORY_GUI_TC_001,Verify the create Story button is in home page,Facebook app installed and Opend,"1-Open Home page.
+2- Look at The top of page.",You should see create stroy card button,found,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_002,Verify the create Story button is in Profile page,Facebook app installed and Opend,"1- Open Profile page.
+2- Look at the Top of page under user name",You should see create stroy button,found,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_003,Verify that at the corner top ther's close button in create Story page,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Look at the Top Corner of the page.","You should see close button ""X"" ",found,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_004,Verify that at the top list of cards scroll horizontal with diffrent types of stories,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Look at the Top under page title ""Create Stroy"".",you should see a horizontal list of stories type,found,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_005,Verify that photos/videos loaded perfectaly in list under stories types list,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Look at the screen under the horizontal list of stroy types",you should see a grid list of photos/videos in gallary,found,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_006,Verify that Camera button at the bottom corner of create Story page,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Look at the Bottom corner of the page",you should see a floating button with camera icon,found,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_007,Verify that Camera button at the bottom corner disappear when scroll down of photos/videos list,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Scroll the photos/videos lsit.
+4- Look at the Bottom corner of the page",the floating camera button should be disappeard,after i scrolled the list the camera button disappeard,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_008,Verify that Camera button at the bottom corner appears again when get top of photos/videos list,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- get back to the top of photos/videos list.
+4- Look at the Bottom corner of the page",The floating camera button should be appears when you get to the top of list,"After i scrolled to the top of the list , the camera button appears again",High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_009,Verify that when user open camera the filters loaded perfectaly,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on the Camera Button in the bottom corner.
+4- Look at the Bottom.",You should see a list of types of filters at the bottom,found,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_010,Verify that when user type a text story Share button appears,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Selext text.
+4- Type any text.
+5-press Done.
+6-Look at the bottom corner.","After you type a text and press done, you should see share button at the bottom corener",found,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_011,Verify when user select muliple photos/videos next button at the top corner is enabled with blue color,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on ""Select multiple""
+4- select multiple photos/videos.
+5- Look at the corner top",NEXT Button should be enabled with blue color if user selecting photos/videos,after selecting multiple photos the next button turned to blue color,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_012,"Verify when user unselect muliple phots/videos , Next Button is disabled with gray color",Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on ""Select multiple""
+4- select multiple photos/videos.
+5- Unselect photos/videos
+6- Look at the corner top",NEXT Button should be turn to disabled with gray color,i tried to unselect the photos and the next button turned to gray color,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_013,Verify that when user choose photo Share button appears,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- select a photo.
+4- Look at the corner bottom","When user select a photo,should prepare to a page with a share button","After i choose a photo, a share Button appears in the page",High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_014,"Verify that when user Choose video , Share button appears",Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- select a video.
+4- Look at the corner bottom","When user select a Video,should prepare to a page with a share button","After i choose a Video, a share Button appears in the page",High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_015,"Verify when user select multipe photos , he can scroll to see what he chose",Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- click on Select mutiple button
+4- select multiple photos.
+5- click on NEXT Button","After clicks on NEXT Button, selected photos should appears in preview page in scroll list",I can see photots in preview page in horizontal scroll list,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_016,"Verify that when user select muliple photos/videos, add more button card appears at lthe end",Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- click on Select mutiple button
+4- select multiple photos/videos.
+5- click on NEXT Button.
+6- scroll the end of selected photos/videos list",Add more button should be appears at the end of the list,found,High,PASS,2.1.2 Adding Stories,
+FB_STORY_GUI_TC_017,Verify that when user go back from crearting story confirmation dialog appears,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- select a photo.
+4- click on back button.
+5- Look at the bottom",App should appears a Confirmation dialog if youser want to keep changes or decline,"When i press on back button, a dialog appears ""Discard story?""",High,PASS,2.1.2 Adding Stories,
+Adding Stories Positve Suite,,,,,,,,,
+FB_STORY_POS_TC_001,Verify user can share text story,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Type any text.
+4- Share the Story
+5- View the story ",A text Story should be shared on user profile,"When i click on share button, i can see the text story on profile",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_002,Verify user can upload Single photo from gallary,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Select a photo.
+4- Share the Story
+5- View the story ",A photo Story should be shared on user profile,"After i select a photo, clicked on share Button and i can see the story on profile",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_003,Verify user can upload Multiple photos from gallary,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on Select mutltiple button.
+4- select multiple photos.
+5- click on NEXT Button
+6- click on share button","User can select multiple photos and share them, each photo should be shared in single story",After i click on share button i can see each photo shared in single story each on profile,High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_004,Verify user can Share Single photo using Camera,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on Camera button.
+4- Take a photo.
+5- click on share button",User can take a photo by camera and share it on profile,"After i took a photo, shared it and i can see the story on profile",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_005,Verify user can take a photo by camera and save it on device,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on Camera button.
+4- Take a photo.
+5- click on save button",User should be able to save a photo he took by camera before sharing it,"After i took a photo by camera , clicked on save button and i can see the photo on device's files",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_006,Verify user can use filter in Camera ,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on Camera button.
+4- select a filter.
+4- Take a photo.
+5- Share the photo",User should be able to use filters in camera and take a photo using a filter,"After i select a filter i can see the effect on the camera, i took a photo and i can see the photot on profile",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_007,Verify that user can use effects on photots,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Select a photo.
+4-Use effect on the selected photo
+5- Share the Story
+6- View the story ",User can add effects on uploaded photo and share it,"After i uplaod a photo, i added an effect and i can see the edited photo on profile",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_008,Verify that user can share a music,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on Music card.
+4. Add a music
+4- Share the Story
+5- View the story ",User can add a music from the list and share it,"After i select a music , shared it on profile",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_009,Verify that user can save his edited photo on divce,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Select a photo.
+4-Use effect on the selected photo
+5- Type a text on the photo.
+6- View the story on Device",User can add effects and edit his photo and save the edited photo on the device and should be saved,After i edited a photo i saved to device,High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_010,Verify user can upload Single Video from gallary,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Select a Video.
+4- Share the Story
+5- View the story ",A user can upload a video and share it,"After i uploaded a video, i can see the video Story on profile",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_011,Verify user can upload multiple photos and videos,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Select multiple photos/Videos.
+4- Share the Story
+5- View the story ","User can select multiple photos/videos and share them, each photo should be shared in single story","After i uplaoded photos/videos, i can see every photo/video in a single Story",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_012,Verify user can use effects on uploaded videos,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Select a Video.
+4-Use effect on the selected Video
+5- Share the Story
+6- View the story ",User should be able to add effects on uploaded videos,i can add effects on a video,High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_013,Verify user Can use Camera to record video,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on Camera button.
+4- record a video
+5- click on share button
+6- View the Story",User can use Camera to record a video and share it on profile,i can record a video and shared it on profile,High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_014,Verify user can use Filter on Camera while recording,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Click on Camera button.
+4- Use a filter
+5- record a video
+6- click on share button
+7- View the Story",User should be able to use filter in Camera and record a video,"i can selecte any filter and start record a video, then i share it on profile",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_015,Verify user can timming his video before share,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Select a Video.
+4- trim the video.
+5- Share the Story
+6- View the story ",User should be able to trimming the video befor share it,After i uplaod a video i can use trim option on the video and share it on profile,High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_016,Verify user can add music on photo/video,Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Select a photo/Video.
+4- add music from option.
+5- Share the Story
+6- View the story ",User should be able to add a music to the photo/video,"After i uploaded a video/photo , i can add a music, and share it",High,PASS,2.1.2 Adding Stories,
+FB_STORY_POS_TC_017,Verify user can share video with no sound(muted),Facebook app installed and Opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Select a Video.
+4- control the audio from option
+5- Share the Story
+6- View the story ",User should be able to control the audio of the video,I can contol the audio of the uplaoded video,High,PASS,2.1.2 Adding Stories,
+Adding Stories Negative Suite,,,,,,,,,
+FB_STORY_NEG_TC_001,Verfiy that user can not add blank post,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Try to Share the Story
+4- View the story",User should not be able to create blank story,"i typed one space to story , and it accepts to share it",High,FAIL,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_002,Verify user can not sharre story over 250 Characters,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Try to add a long text
+4- Share it",Text Stories should not take long text so that user can read it,i tried to add a long text and it accepts the text,High,FAIL,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_003,verify that user can not add background color with upload photo,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Try to add a long text
+4- Share it",Stories should not add a background to a photo uploaded,i can not add background to a photo,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_004,verify that user can not add background color with upload video,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Try to add a long text
+4- Share it",Stories should not add a background to a video uploaded,i can not add background to a video,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_005,Verify that user can not share corrupted photot,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Upload a coruptted photo
+4- Share it",Story should not accepts a coruptted photo,it accepts a coruptted photo,High,FAIL,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_006,Verify that user can not share corrupted video,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Upload a coruptted photo
+4- Share it",Story should not accepts a coruptted Videos,it accepts a coruptted video,High,FAIL,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_007,Verify that user can not share small size photos,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Upload a small size photo
+4- Share it",Story should not accepts a small size photo,"it accepts, but it fits the photo and got pixeld",High,FAIL,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_008,Verify that user can not share long videos,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Upload a long video
+4- Share it",Story should not accepts a long time video,video got shortened to 26 second,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_009,Verify that when user return to the app can see the text he was typed in create Story page,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Type any text to story
+4- open another app on your phone
+5- return to facebook app again",The app should save the user changes and see it when he retun back to the app,When i back again to the app i found the text i typed,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_010,Verify that when user returnt to the app can see the photo he uploaded from the gallery,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Upload a photo/video
+4- open another app on your phone
+5- return to facebook app again",The app should save the user changes and see it when he retun back to the app,When i back again to the app i found the uploaded photo/video that i select,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_011,Verify that user can not remove any effects/filters edited on photo/video,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Upload photo/video
+4- Try add an effect 
+5- Try to make another editing to the photo/video
+6- Go back to the filter option and try to remove it",The Story should undo any changes or editing in the photo/video,i can undo any effect i added,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_012,Verify that when user open camera and zoom it in can zoom it out again,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Open Camera
+4- Zoom in
+5- zoom out again",zoom in/out should work fine,i can zoom in/out without any problem,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_013,Verify that user can not post a file not a (photo/video),Facebook App installed and opend,"1-Open Device files
+2- try to share a pdf file to the stories",Stories should not accepts any files,i can not share a file to stories,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_014,Verify that user can not upload music from phone's files,Facebook App installed and opend,"1-Open Device files
+2- try to share a music ""mp3 file"" to the stories",Stories should not accepts a music out side the music list,i can not share a music to stories,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_015,Verify that user can cancel uploading photos from cancel button,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Upload a photo
+4-Click on a story
+5- click on 3 dots setting",should appear a dialog to discard the story,I can discard uplading photo,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_016,Verify that user can  cancel uploading video form cancel button,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Click on Create Stroy Button.
+3- Upload a Video
+4-Click on a story
+5- click on 3 dots setting",should appear a dialog to discard the story,I can discard uplading video,High,PASS,2.1.2 Adding Stories,
+FB_STORY_NEG_TC_017,Verify that user can  delete any post he's already posted,Facebook App installed and opend,"1- Open Home/Profile Page.
+2- Go throw your stories
+3- click on 3 dots settings
+4- try to delete the story
+5- click on delete when dialog appears",App should delete any story that user created,I can delete any story,High,PASS,2.1.2 Adding Stories,
+Messaging Module,,,,,,,,,
+Messaging GUI Suite,,,,,,,,,
+FB_MESSAGING_GUI_TC_001,Verify user's profile picture appears in the top corner,Messenger app installed and opend,"1- Open Cahts
+2- Look at the top corner",User should see his profile picture,user profile picture appears,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_002,Verify that user see list of online freinds,Messenger app installed and opend,"1-Open CHats
+2-look at the screen",User should see his online friends,i can see my online friends,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_003,Verify that last message appears on chat list with date,Messenger app installed and opend,"1-Open Chats
+2- Look at the list of chats",User should see the last message sent on chat list,chats list load prefectly,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_004,Verify that if user online green dot appears on friends picture on chat list,Messenger app installed and opend,"1-Open Chats
+2- Look at friends picture on the list of chats",User should see a green dot on his online friends,i can regonise my online friends by green dot,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_005,Verify that the reciever name appears on the top of chat page,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- Look at the top of page",When user open chat he should see name of his friend chatting with,the reciever friends name appears,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_006,Verify that the last seen appears under reciver name on the top of chat page,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- Look at the top of page under user name",When user open chat he should see  last seen under his friend's name,the last seen on chat appears under user name,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_007,Verify that when user change chat them is shown every time he open the chat,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- open settings, change theme",if user change a chat them he should see tthe theme every time he open this chat,theme on chat is fixed after i change it,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_008,Verify that user can see all his calls history in the list,Messenger app installed and opend,"1-Open Calls
+2- look at the list",user should see his calls list he made it,i can see a history list of calls,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_009,Verify that user see sent label when he sent message,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- send any message
+4- look at the message corner",user should see the status of his message in the chat,when i sent a message saw a sent label on message,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_010,Verify that user see deliverd label on message when it deliverd other side,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- send any message
+4- look at the message corner",user should see the status of his message in the chat,when i sent a message saw a deliverd label on message,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_011,Verify that user can see the date of a message and status,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- send any message
+4- look at the message corner",user should see the time when message was sent,when i click on message the date appears,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_012,Verify that user send Pinned location it appears with a map preview,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- send location
+4- look at the message ",when user send a location he should see the map preview with pin of location,i can see map preview and a pin on the map,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_013,Verify that when user send live location appears with his profile picture on map preview,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- send live location
+4- look at the message ",when user send a live location he should see a map preview with a his profile picture pin on the map ,i can see my profile picture on map preview,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_014,Verify that when user share live location a pinned bar appears in the top of chat with remaining time,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- send live location
+4- look at top of page",when user send a live location he should see a message bar appears on the top that he's sharing his location,i can see the bar with time remaning at the top,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_015,Verify that when user send a link it appears with a preview ,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- send a link
+4- look at the message ",user should see link preview that hsared in the chat,i can see the link preview,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_016,Verify that when user rotate his screen message appears on the same postion before rotating,Messenger app installed and opend,"1- Open Chats
+2- Open chat of a friend
+3- scroll to older messages
+4- totate the phone",when user scroll in message and try to rotate his phone he should be in the same postion,it loads the messages again grom the last,High,FAIL,2.1.3 Messaging,
+FB_MESSAGING_GUI_TC_017,Verify that when user try to search for someone the loading circle appears,Messenger app installed and opend,"1- click on search bar
+2- try type name of a freind
+3- look at the result area",When user type a name in search field and press seach he should see a circle loading,a circle loading appears,High,PASS,2.1.3 Messaging,
+Messaging Postive Suite,,,,,,,,,
+FB_MESSAGING_POS_TC_001,Verify user can start chatting with his friends,Messenger app installed and opend,"1- click on search bar
+2- try type name of a freind
+3-click on frined icon",user can select an online friend and send him message,i can select a friend to chat with,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_002,Verify that when user click on chat from list open the same chat for this friend,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list",when user click on chat should open the same chat of that friend,the same name and chat opens perfectly,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_003,Verify that user can send text message,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3-Try send text message",user should be able to send a text message,i can send a text message,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_004,Verify that user can send Single photo from gallary,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on photo and select photo",user should be able to send a photo from gallary,i can uplaod a single photo,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_005,Verify that user can send Single Video from Gallary,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on photo and select a video",user should be able to send a video from gallary,i can send a single video,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_006,Verify that user can send multiple photos/videos from gallary,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on photo and select multiple photos/videos",user should be able to send a multiple photos/videos from gallary,i can select multipl photo/video to send,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_007,Verify that user can send Single photo using Camera,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on camera icon
+4- Take photo",user should be able to send a photo using Camera,i can use camera to send a photo,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_008,Verify that user can send Single Video using Camera,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on camera icon
+4- record a video",user should be able to send a video using Camera,i can use camera to record video and send it,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_009,Verify that user can use filter Camera,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on camera icon
+4- select a filter
+5- record a video",User should be able to use filter in Camera,i can select any filter on camera ,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_010,Verify that user can edit photo before send it,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on camera icon
+4- Take photo
+5- edit photo before send",user should be able to make changes on a photo before sending,i can edit the photo before sending from gallary/camera,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_011,Verify that user can edit Video before send it,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on camera icon
+4- record a video
+5- edit video before send",user should be able to make changes on a video before sending,i can edit recorded video before send,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_012,Verify that user can send a voice message,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on mic icon
+4- record a voice
+5-send a voice",user should be able to send a voice message,i can record voice and send it,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_013,Verify that user can Share his location,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on 4 dots icon
+4- select location
+5-click on a pin
+6-select a location and send",user should be able to send a location from map,i can send a location on map,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_014,Verify that user can share his live location,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on 4 dots icon
+4- select location
+5-click on share live location",user should be able to send a live location,i can send live location,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_015,Verify that user can cancel sharing his live location,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- on map live location message
+4- click cancel sharing",user should be able to cancel sharing his lcoation,i can canecl sharing my live location,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_016,Verify that user can cancel uploading photo/video,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3-send photo/video
+4-click on message while uploading
+-5 click on remove",user should be able to cancel sending photo/video message,i can cancel uploading by removing the message,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_POS_TC_017,Verify that user can delete any message,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on 4 dots icon
+4- select location
+5-click on share live location",user should be able delete a message from chat,i can delete any message,High,PASS,2.1.3 Messaging,
+Messaging Negative Suite,,,,,,,,,
+FB_MESSAGING_NEG_TC_001,Verify that user can not send blank message,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- in message box type a space
+4- try to send",user should not send a blank message,i can not send a blank messge,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_002,Verify that user can not send corrupted photo,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- upload corrutpted photo",user should not uplaod a corrupted photo,it accepts a corrupted photo,High,FAIL,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_003,Verify that user can not send corrupted video,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- upload corrupted video",user should not uplaod a corrupted video,it accepts a corrupted Video,High,FAIL,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_004,Verify that user can not send long time video,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- uplaod long time video",a worning dialog appears if user trying to uplaod long time video,"i got a worning diaolg ""this video can't be sent""",High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_005,"Verify that user can not send message over 20,000 characters",Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- in message box
+4- try to type over 20,0000 charcter","It should not accepts over 20,000 charcter message",when i reach the limit i can not type more charctrers,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_006,Verify that user can not send small size photo,Messenger app installed and opend,"""1-Open chat
+2- Click on chat from chats list
+3- upload a small size photo",should not accepts a small size photo,"it accepts, and got pixeld",High,FAIL,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_007,Verify that user can not send 0 second voice message,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- try to record 0 second voice",should not send a 0 time voice message,i sent a 0 time voice message,High,FAIL,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_008,Veirfy that user can not record long time video,Messenger app installed and opend,"""1-Open chat
+2- Click on chat from chats list
+3- upload along time video",should not record more than 48 mb video,maxmum video size 48 MB,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_009,Verify that when user sent live location and turn off his location a message appears to turn it back on,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on 4 dots icon
+4- select location
+5-click on share live location
+6-turn off location from mobile settings","It should show a dialg that user rurned his location off , and allow him to turn it on back again",A dialog appears that i turned location off,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_010,Verify that user can not send multiple live location while the first one is live,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on 4 dots icon
+4- select location
+5-click on share live location
+6- try to share a live location again",should show the current live location instaed of sharing new one,"when i click on share live location again, it show the current live location so i cant shar it again",High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_011,Verify that user can not share messages out side the app only forward it to anothre friend,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- click on share icone behind message",messages should not be shared outside the app,i can not share any message outside the app,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_012,Verify that user on a call do not get another call,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- make a call 
+4- let some friend call you while your in call","should not make a call "" is on another call"" message apears",i can not get another call while i'm on a call,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_013,"Verify that when user search for a friend to chat with, app dose not create new chat and open the chat of that friend",Messenger app installed and opend,"1- click on search bar
+2- try type name of a freind existing chat
+3-click on frined icon",app should not create a new chat for existing one,when i click on a friend it opens the old chat ,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_014,Verify that user dosenot get notfication for muted chats,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- from chat settings mute the chat",app should not send notfication if user muted that chat,i didnot get any notfication for muted chats,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_015,verify that when user use disappearing message in time it's disappeare,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- from chat settings mute the chat
+4- send a message
+5- wait the freind to see it ",app should disappear message after the time selected from option,"When i sent a message, it disappears after reciever seen it",High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_016,Verify that when user restrict a chat it disappears from chats list,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- from chat settings restrict the user",chat should be diappeard after user restrict it,i can not see the chat after restrict the user,High,PASS,2.1.3 Messaging,
+FB_MESSAGING_NEG_TC_017,Verify that user can unrestrict a chat again,Messenger app installed and opend,"1-Open chat
+2- Click on chat from chats list
+3- from chat settings unrestrict the user",chat should be appears again in list after unrestrict,i can see the chat in the list after unrestrict it,High,PASS,2.1.3 Messaging,

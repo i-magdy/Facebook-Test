@@ -1,0 +1,36 @@
+Adding Posts Test Scenarios
+Check user can create text post
+Check user can upload photos/videos 
+Check user can add background color to text post
+Check user can add music post
+Check user can use camera to take photo 
+Check user can use Camera to record video
+Check user can upload multiple photos/videos
+Check user can add caption to photos 
+Check user can share his location with map view
+Check user can add feelings/activity to any post
+Check user can add posts to an album
+Adding Stories Test Scenarios
+Check user can create text Stories
+Check user can Create music Stories
+Check user can upload photos/videos to Stroty
+Check user can upload multiple photos/videos and create story to each
+Check user can open camera and take a photo then create a story
+Check user can open camera and record a video then create a story
+Check user can can use any effect whil open the camera
+Check user can Zoom in/out while open the Camera
+Check user can create selife Story open front camera dirctly
+Check user can save any story and share it latter
+Check user can create a layout story
+Messaging Test Scenarios
+Check user can search for friends and start chatting.
+Check user can send text message
+Check user can send voice message
+Check user can send photos/videos message
+Check user can share his live location
+Check user can unsend message within a time
+Check user can make a voice/video calls
+Check user can read his chats offline
+Check user can save any media on his device
+Check user can use camera and sent video or photo
+Check user can see his friend profile preview in messanger
